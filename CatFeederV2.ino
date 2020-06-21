@@ -1,10 +1,10 @@
 /*
 
-   CAT FEEDER V1 - 2020.06.21
-   Written by Jérémy Noverraz
+   CAT FEEDER V2 - 2020.06.21
+   Written with a lot of coffee by Jérémy Noverraz 
 
 
-   This code is able to control a servo motor  to open a cat feeder door
+   This code is able to control a servo motor to open a cat feeder door based on a pre-programmed timer
 */
 
 /* ------ INCLUDE DEPENDENCIES LIBRARIES ------- */
