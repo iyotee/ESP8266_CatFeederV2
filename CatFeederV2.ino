@@ -14,8 +14,8 @@
 #include <TimeAlarms.h>
 
 /* ---- CONSTANTES ----*/
-const char *ssid     = "SwissLabsBox2";
-const char *password = "JP3YMhAdx4rbvyru3S";
+const char *ssid     = "YOUR_SSID";
+const char *password = "YOUR_WIFI_PASSWORD";
 
 /* ---- DECLARATION ET INITIALISATION DES VARIABLES ---- */
 int pos = 0;
