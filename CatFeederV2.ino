@@ -64,32 +64,35 @@ void  loop() {
 void MorningAlarm() {
   Serial.println("Alarm : - Time to feed the cat ! ");
   Serial.println();
-  // On bouge le servo de 180°
+  // moving servo by 180°
   CatFeeder_servo.write(180);
   Alarm.delay(2000);
+  // moving servo to initial position
   CatFeeder_servo.write(pos);
 }
 
 void EveningAlarm() {
-  Serial.println("Alarm: - turn lights on");
-  // On bouge le servo de 180°
+  Serial.println("Evening Alarm: - Time to feed the cat !");
+  // moving servo by 180°
   CatFeeder_servo.write(180);
   Alarm.delay(2000);
+  // moving servo to initial position
   CatFeeder_servo.write(pos);
 }
 
 void ExplicitAlarm() {
   Serial.println("Exlicit Alarm: - Time to feed the cat !");
-  // On bouge le servo de 180°
+  // moving servo by 180°
   CatFeeder_servo.write(180);
   Alarm.delay(2000);
+  // moving servo to initial position
   CatFeeder_servo.write(pos);
 }
 
 
 void SerialClockDisplay()
 {
-  // digital clock display of the time
+  // serial monitor clock display of the time
   Serial.print(hour());
   Serial.print(" : ");
   Serial.print(minute());
